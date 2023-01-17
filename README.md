@@ -1,14 +1,24 @@
-# Solving the Monty Hall Problem in R
+# January 17: Introductions
 
-Austin Hart, American University
+This week is about getting to know the course. We'll cover the syllabus and spend a bit of time getting to know everyone. We'll talk about Wang's take on careers in the field. Then we'll dive into a wild exercise: solving the classic Monty Hall problem using our own simulation in R. I'll save some time at the end to troubleshoot the installation of R and RStudio for anyone who hasn't completed it.
 
-## The Monty Hall problem
-This classic probability puzzle is based loosely on Monty Hall’s game show *Let’s Make a Deal*. The problem as we know it now was made famous in 1990 as a reader's question to Marilyn vos Savant (of *Parade* magazine’s "Ask Marilyn"). The reader framed the problem this way:
+## Preparation
+- Glance through Annie Wang's indispensable [guide to careers in data analytics](https://www.guide.progressivedatajobs.org/).
+- Install R and RStudio. See Chapters 2 and 3 of my [R Survival Guide](https://austin-hart-pols.github.io/SurvivalGuide/) for instructions if you haven't already installed it.
+- Install our most commonly-used packages for this semester:
+  - `tidyverse` suite of packages (`install.packages('tidyverse')`)
+  - `rmarkdown` 
+  - `knitr`
+  - `tinytex`
+  - `patchwork`
 
-> Suppose you're on a game show, and you're given the choice of three doors: Behind one door is a car; behind the others, goats. You pick a door, say No. 1, and the host, who knows what's behind the doors, opens another door, say No. 3, revealing a goat. He then says to you, "Do you want to pick door No. 2?" Is it to your advantage to switch your choice?
+## Class materials
+- [Syllabus](https://docs.google.com/document/d/107wQ9VhKJ_ASmzD4RSGRogpCYiXa2eLW-Ewy8LM9UH4/edit?usp=sharing)
+- [The Monty Hall problem](https://github.com/SIS-data-analysis/01-Intro/tree/main/MontyHall) exercise
 
-Marilyn’s answer was simple: switch. Switching doubles the probability of winning the car: $Pr[car|switch] = 0.666$; $Pr[car|stay] = 0.333$. Her answer was not popular... The magazine received more than 10,000 letters insisting that vos Savant was wrong and a total fool for suggesting that the contestant switch. Marilyn's follow-up explanations and
-formal proofs were not enough to satisfy the most serious doubters. Notably, mathematician Paul Erös rejected Marilyn's answer until he was shown a computer simulation.
+## Tips for building your R skills:
+Work through the sample exercises in the Survival Guide or Chapters 2 or 5 of [Dr. Bryan’s Stat 545 text](https://stat545.com/). Get used to typing and executing commands, loading packages, setting a directory, etc. Compare your output with that given in the texts.
 
-## Your challenge
-Write and execute a computer simulation to convince Marilyn's most skeptical readers that switching doors is the best solution to the Monty Hall problem. Code the routine using the R language.
+## Assessments
+- Submit your draft Analyst Resume in hard copy on January 24. Be sure to include a section highlighting your computing, stats, and or analysis skills.
+- Extra Credit: create a [github](https://github.com) account. Email me with your username. 
