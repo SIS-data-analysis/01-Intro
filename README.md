@@ -16,9 +16,9 @@ This week is about getting to know the course. We'll cover the syllabus and spen
 - [Syllabus](https://docs.google.com/document/d/107wQ9VhKJ_ASmzD4RSGRogpCYiXa2eLW-Ewy8LM9UH4/edit?usp=sharing)
 - [The Monty Hall problem](https://github.com/SIS-data-analysis/01-Intro/tree/main/MontyHall) exercise
 
-## Tips for building your R skills:
-Work through the sample exercises in the Survival Guide or Chapters 2 or 5 of [Dr. Bryan’s Stat 545 text](https://stat545.com/). Get used to typing and executing commands, loading packages, setting a directory, etc. Compare your output with that given in the texts.
-
 ## Assessments
 - Submit your draft Analyst Resume in hard copy on January 24. Be sure to include a section highlighting your computing, stats, and or analysis skills.
 - Extra Credit: create a [github](https://github.com) account. Email me with your username. 
+
+## Tips for building your R skills:
+Work through the sample exercises in the Survival Guide or Chapters 2 or 5 of [Dr. Bryan’s Stat 545 text](https://stat545.com/). Get used to typing and executing commands, loading packages, setting a directory, etc. Compare your output with that given in the texts.
